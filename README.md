@@ -17,7 +17,7 @@ Below is the syllabus covered in each of the folders
     </tr>
     <tr>
         <td>Day 1</td>
-        <td>HTML</td>
+        <td>CSS</td>
     </tr>
     <tr>
         <td>Day 2</td>
