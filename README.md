@@ -6,7 +6,7 @@ The repository has been divided into different days from day 0 to upto day 19. <
 
 Below is the syllabus covered in each of the folders
 
-<table border = >
+<table border = 20>
     <tr>
         <th>Day</th>
         <th>Technology</th>
