@@ -7,26 +7,75 @@
 </head>
 <body>
     <h1>Contact Info</h1><br>
-    <form action="">
-        <label>Enter Name </label><input type="text"><br>
-        <label>Enter Password </label><input type="Password"><br>
-        <label>Enter Email </label><input type="Email"><br>
-        <label>Gender</label><input name="gen" type="radio" value="Male">Male
-        <input name="gen" type="radio" value="Female">Female<br><br>
-        <label>Comments:</label><br>
-        <textarea cols="30" rows="5"></textarea><br><br>
-        <label for="">Skills:</label><br><br>
-        <input type="checkbox">HTML
-        <input type="checkbox">CSS
-        <input type="checkbox">JavaScript<br><br>
-        <label for="">Country</<la></la>bel>
-        <select name="" id="">
-            <option type="checkbox" value="">USA</option>
-            <option type="checkbox" value="">INDIA</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-    </form>
+    <table>
+        <form action="">
+            <tr>
+                <th><label>Enter Name </label></th>
+                <td><input type="text"><br></td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Enter Password </label>
+                </th>
+                <td>
+                    <input type="Password"><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Enter Email </label>
+                </th>
+                <td>
+                    <input type="Email"><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Gender</label>
+                </th>
+                <td>
+                    <input name="gen" type="radio" value="Male">Male
+                    <input name="gen" type="radio" value="Female">Female<br><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Comments:</label><br>
+                </th>
+                <td>
+                    <textarea cols="30" rows="5"></textarea><br><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="">Skills:</label><br><br>
+                </th>
+                <td>
+                    <input type="checkbox">HTML
+                    <input type="checkbox">CSS
+                    <input type="checkbox">JavaScript<br><br>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="">Country </label>
+                </th>
+                <td>
+                    <select name="" id="">
+                        <option type="checkbox" value="">USA</option>
+                        <option type="checkbox" value="">INDIA</option>
+                    </select>
+                </td>
+            </tr>
+            <br><br>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </form>
+    </table>
 </body>
 </html>
