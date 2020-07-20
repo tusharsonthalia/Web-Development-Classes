@@ -2,93 +2,94 @@
 
 ## This repository contains files written in a introductory web development course
 
-The repository has been divided into different days from day 0 to upto day 19. <br>
+The repository has been divided into different days from day 0 to upto day 19.
+Below is the syllabus covered in each of the folders: -
 
-Below is the syllabus covered in each of the folders
+<!-- # <input type="hf" name="djsf">hi bitch -->
 
-<table border = 20>
+<table>
     <tr>
-        <th>Day</th>
-        <th>Technology</th>
+        <th style="border: solid 2px;">Day</th>
+        <th style="border: solid 2px;">Technology</th>
     </tr>
     <tr>
-        <td>Day 0</td>
-        <td>HTML</td>
+        <td style="border: solid 2px;">Day 0</td>
+        <td style="border: solid 2px;">HTML</td>
     </tr>
     <tr>
-        <td>Day 1</td>
-        <td>CSS</td>
+        <td style="border: solid 2px;">Day 1</td>
+        <td style="border: solid 2px;">CSS</td>
     </tr>
     <tr>
-        <td>Day 2</td>
-        <td>CSS</td>
+        <td style="border: solid 2px;">Day 2</td>
+        <td style="border: solid 2px;">CSS</td>
     </tr>
     <tr>
-        <td>Day 3</td>
-        <td>JavaScript</td>
+        <td style="border: solid 2px;">Day 3</td>
+        <td style="border: solid 2px;">JavaScript</td>
     </tr>
     <tr>
-        <td>Day 4</td>
-        <td>JavaScript</td>
+        <td style="border: solid 2px;">Day 4</td>
+        <td style="border: solid 2px;">JavaScript</td>
     </tr>
     <tr>
-        <td>Day 5</td>
-        <td>JavaScript</td>
+        <td style="border: solid 2px;">Day 5</td>
+        <td style="border: solid 2px;">JavaScript</td>
     </tr>
     <tr>
-        <td>Day 6</td>
-        <td>JSON</td>
+        <td style="border: solid 2px;">Day 6</td>
+        <td style="border: solid 2px;">JSON</td>
     </tr>
     <tr>
-        <td>Day 7</td>
-        <td>D3.js</td>
+        <td style="border: solid 2px;">Day 7</td>
+        <td style="border: solid 2px;">D3.js</td>
     </tr>
     <tr>
-        <td>Day 8</td>
-        <td>D3.js</td>
+        <td style="border: solid 2px;">Day 8</td>
+        <td style="border: solid 2px;">D3.js</td>
     </tr>
     <tr>
-        <td>Day 9</td>
-        <td>React.js</td>
+        <td style="border: solid 2px;">Day 9</td>
+        <td style="border: solid 2px;">React.js</td>
     </tr>
     <tr>
-        <td>Day 10</td>
-        <td>React.js</td>
+        <td style="border: solid 2px;">Day 10</td>
+        <td style="border: solid 2px;">React.js</td>
     </tr>
     <tr>
-        <td>Day 11</td>
-        <td>React.js</td>
+        <td style="border: solid 2px;">Day 11</td>
+        <td style="border: solid 2px;">React.js</td>
     </tr>
     <tr>
-        <td>Day 12</td>
-        <td>React.js</td>
+        <td style="border: solid 2px;">Day 12</td>
+        <td style="border: solid 2px;">React.js</td>
     </tr>
     <tr>
-        <td>Day 13</td>
-        <td>React.js</td>
+        <td style="border: solid 2px;">Day 13</td>
+        <td style="border: solid 2px;">React.js</td>
     </tr>
     <tr>
-        <td>Day 14</td>
-        <td>REST API</td>
+        <td style="border: solid 2px;">Day 14</td>
+        <td style="border: solid 2px;">REST API</td>
     </tr>
     <tr>
-        <td>Day 15</td>
-        <td>REST API</td>
+        <td style="border: solid 2px;">Day 15</td>
+        <td style="border: solid 2px;">REST API</td>
     </tr>
     <tr>
-        <td>Day 16</td>
-        <td>Node.js</td>
+        <td style="border: solid 2px;">Day 16</td>
+        <td style="border: solid 2px;">Node.js</td>
     </tr>
     <tr>
-        <td>Day 17</td>
-        <td>Node.js</td>
+        <td style="border: solid 2px;">Day 17</td>
+        <td style="border: solid 2px;">Node.js</td>
     </tr>
     <tr>
-        <td>Day 18</td>
-        <td>Angular.js</td>
+        <td style="border: solid 2px;">Day 18</td>
+        <td style="border: solid 2px;">Angular.js</td>
     </tr>
     <tr>
-        <td>Day 19</td>
-        <td>Angular.js</td>
+        <td style="border: solid 2px;">Day 19</td>
+        <td style="border: solid 2px;">Angular.js</td>
     </tr>
 </table>
