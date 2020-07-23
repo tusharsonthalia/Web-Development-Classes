@@ -5,8 +5,6 @@
 The repository has been divided into different days from day 0 to upto day 19.
 Below is the syllabus covered in each of the folders: -
 
-<!-- # <input type="hf" name="djsf">hi bitch -->
-
 <table>
     <tr>
         <th>Day</th>
@@ -22,7 +20,7 @@ Below is the syllabus covered in each of the folders: -
     </tr>
     <tr>
         <td>Day 2</td>
-        <td>CSS</td>
+        <td>BootStrap</td>
     </tr>
     <tr>
         <td>Day 3</td>
