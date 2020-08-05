@@ -68,6 +68,7 @@ var a = d3.selectAll("#container").on("mouseout", function() {
 Example 5: D3 selection functions - joining functions
 */
 
+/*
 function show() {
     var names = [{name: "Tushar"}, {name: "Vedant"}];
     var a = d3.selectAll("#div1 p");
@@ -75,3 +76,4 @@ function show() {
         return this.innerText + " " + d.name;
     }).exit().remove();
 }
+*/
