@@ -138,10 +138,8 @@ var text = svg.selectAll('text')
 */
 
 // use external json file
+/*
 d3.json('d3jsondemo.json').then(function(nums) {
-
-
-var nums = [31, 21, 35, 18, 9, 14];
 
 var svg = d3.select('body')
         .append("svg")
@@ -155,14 +153,14 @@ var bars = svg.selectAll('rect')
         .append("rect")
         .attr("width", 25)
         .attr("height", function(d) {
-            return d * 10;
+            return d.sales * 10;
         })
         .attr("x", function(d, i) {
             return i * 30;
         })
         .attr("y", function(d, i) {
-            return 500 - (d * 10);
-        })
+            return 500 - (d.sales * 10);
+        });
 
 var text = svg.selectAll('text')
         .data(nums)
@@ -170,13 +168,75 @@ var text = svg.selectAll('text')
         .append("text")
         .attr("fill", "white")
         .text(function(d) {
-            return d;
+            return d.country;
         })
         .attr("x", function(d, i) {
             return i * 30;
         })
         .attr("y", function(d, i) {
-            return 500 - (d * 10) + 15;
-        })
+            return 500 - (d.sales * 10) + 15;
+        });
 
 });
+*/
+
+// concept of path
+/*
+var bars=d3.select("body")
+        .append("svg")
+        .attr("width",600)
+        .attr("height",500)
+        .style("background","pink")
+        .append("path")
+        .attr("d","M 50 100 S 200 150 100 700")
+        .attr("stroke","black")
+        .attr("fill","none")
+        .transition()
+        .duration(8000)
+        .attr("d","M 50 100 S 100 100 500 100")
+*/
+
+// creating a pie chart
+/*
+var height = 500;
+var width = 500;
+
+var regions=[
+    {"country":"India","registration":34},
+    {"country":"USA","registration":14},
+    {"country":"Germany","registration":4}
+];
+
+var colors=d3.scaleOrdinal(d3.schemeDark2);
+
+var svg = d3.select('body')
+        .append("svg")
+        .attr("height", height)
+        .attr("width", width)
+        .style("background", "pink");
+
+var pieChart = d3.pie()
+        .value(function(d) {
+            return d.registration;
+        })(regions);
+
+var segments = d3.arc()
+        .innerRadius(0)
+        .outerRadius(100)
+        .padAngle(.05)
+        .padRadius(50);
+
+svg.append("g")
+    .attr("transform","translate(250,250)")
+    .selectAll("path")
+    .data(pieChart)
+    .enter()
+    .append("path")
+    .attr("d",segments)
+    .attr("fill", function(d, i) {
+        return colors(i);
+    })
+*/
+
+
+
