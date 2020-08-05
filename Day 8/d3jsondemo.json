@@ -1,0 +1,16 @@
+[
+    {
+        "country": "India",
+        "sales": 10
+    },
+
+    {
+        "country": "USA",
+        "sales": 20
+    },
+
+    {
+        "country": "Australia",
+        "sales": 15
+    }
+]
