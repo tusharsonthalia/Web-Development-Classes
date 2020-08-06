@@ -94,7 +94,7 @@ var text = svg.selectAll('text')
 /*
 var width = 400;
 var height = 400;
-var nums = [31, 25, 35, 18, 9, 70];
+var nums = [31, 25, 35, 18, 9, 700, 500];
 
 var e = d3.scaleLinear()
         .domain([0, d3.max(nums)])
@@ -112,13 +112,13 @@ var bars = svg.selectAll('rect')
         .append("rect")
         .attr("width", 25)
         .attr("height", function(d) {
-            return d * 10;
+            return e(d);
         })
         .attr("x", function(d, i) {
             return i * 30;
         })
         .attr("y", function(d, i) {
-            return width - (d * 10);
+            return width - e(d);
         })
 
 var text = svg.selectAll('text')
@@ -133,9 +133,9 @@ var text = svg.selectAll('text')
             return i * 30;
         })
         .attr("y", function(d, i) {
-            return width - (d * 10) + 15;
+            return width - e(d) + 15;
         })
-*/
+
 
 // use external json file
 /*
