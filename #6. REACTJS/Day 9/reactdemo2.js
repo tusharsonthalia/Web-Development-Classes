@@ -1,7 +1,12 @@
 class App extends React.Component {
     render() {
-        var name = "Tushar";
-        return <h1>Hello, {name}</h1>;
+        var name = "Tushar", city = "Kolkata";
+        return (
+            <React.Fragment>
+                <h1>Hello, {name}</h1>
+                <h2>Hello, {city}</h2>
+            </React.Fragment>
+        );
     }
 }
 
