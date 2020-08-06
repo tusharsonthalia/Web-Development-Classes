@@ -1,6 +1,6 @@
 class App extends React.Component {
     render() {
-        return <h1>Welcome to REACTJS</h1>;
+        return (React.createElement('h1',null, 'Enjoy the React'));
     }
 }
 
