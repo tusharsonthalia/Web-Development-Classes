@@ -11,43 +11,43 @@ Below is the syllabus covered in each of the folders: -
         <th>Technology</th>
     </tr>
     <tr>
-        <td>Day 0</td>
+        <td>Day 00</td>
         <td>HTML</td>
     </tr>
     <tr>
-        <td>Day 1</td>
+        <td>Day 01</td>
         <td>CSS</td>
     </tr>
     <tr>
-        <td>Day 2</td>
+        <td>Day 02</td>
         <td>BootStrap</td>
     </tr>
     <tr>
-        <td>Day 3</td>
+        <td>Day 03</td>
         <td>JavaScript</td>
     </tr>
     <tr>
-        <td>Day 4</td>
+        <td>Day 04</td>
         <td>JavaScript</td>
     </tr>
     <tr>
-        <td>Day 5</td>
+        <td>Day 05</td>
         <td>JavaScript</td>
     </tr>
     <tr>
-        <td>Day 6</td>
+        <td>Day 06</td>
         <td>JSON</td>
     </tr>
     <tr>
-        <td>Day 7</td>
+        <td>Day 07</td>
         <td>D3.js</td>
     </tr>
     <tr>
-        <td>Day 8</td>
+        <td>Day 08</td>
         <td>D3.js</td>
     </tr>
     <tr>
-        <td>Day 9</td>
+        <td>Day 09</td>
         <td>React.js</td>
     </tr>
     <tr>
