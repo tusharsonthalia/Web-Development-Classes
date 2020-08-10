@@ -22,7 +22,7 @@ export default class Example5 extends Component {
         return (
             <div>
                 <label>Enter Name</label>
-                <input type="text" onChange={this.handlefun}/>
+                <input name="uname" type="text" onChange={this.handlefun}/>
                 <button onClick={this.show}>Submit!</button>
                 <h1>Hi, {this.state.name}</h1>
             </div>
