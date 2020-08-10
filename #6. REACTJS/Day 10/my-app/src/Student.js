@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
-
+import Report from './Report'
 
 class Student extends Component {
     render() {
-        return React.createElement('h1', null, 'Welcome To My First React App');
+        return (
+            <React.Fragment>
+                <h1>Welcome to React App.</h1>
+                <Report roll={1}/>
+            </React.Fragment>
+        )
     }
 }
 
