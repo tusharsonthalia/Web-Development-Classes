@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstname": "Sarala",
+      "lastname": "D",
+      "email": "sarala.nelsondani@gmail.com",
+      "age": 35,
+      "companyid": 1
+    },
+    {
+      "id": "2",
+      "firstname": "Nelson",
+      "lastname": "D",
+      "email": "nelsondani@gmail.com",
+      "age": 36,
+      "companyid": 2
+    },
+    {
+      "id": "3",
+      "firstname": "David",
+      "lastname": "I",
+      "email": "david@gmail.com",
+      "age": 20,
+      "companyid": 3
+    },
+    {
+      "id": "4",
+      "firstname": "Alex",
+      "lastname": "Malan",
+      "email": "alex@gmail.com",
+      "age": 20,
+      "companyid": 4
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "IIS",
+      "desc": "Institute of Information Security"
+    },
+    {
+      "id": "2",
+      "name": "TMFL",
+      "desc": "Tata Motors Finance Limited"
+    },
+    {
+      "id": "3",
+      "name": "College",
+      "desc": "Somiya college"
+    }
+  ]
+}
