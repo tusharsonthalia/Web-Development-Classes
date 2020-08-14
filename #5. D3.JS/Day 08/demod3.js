@@ -181,7 +181,7 @@ var text = svg.selectAll('text')
 */
 
 // concept of path
-/*
+// /*
 var bars=d3.select("body")
         .append("svg")
         .attr("width",600)
@@ -194,7 +194,7 @@ var bars=d3.select("body")
         .transition()
         .duration(8000)
         .attr("d","M 50 100 S 100 100 500 100")
-*/
+// */
 
 // creating a pie chart
 /*

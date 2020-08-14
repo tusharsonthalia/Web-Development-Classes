@@ -48,21 +48,21 @@ function show() {
 Example 4: D3 Transitions
 */
 
-/*
+// /*
 var a = d3.selectAll("#container").on("mouseover", function() {
     d3.select(this).transition()
-    .duration(100)
+    .duration(500)
     .style("border-radius", "100px")
     .style("background", "orange")
 });
 
 var a = d3.selectAll("#container").on("mouseout", function() {
     d3.select(this).transition()
-    .duration(100)
+    .duration(500)
     .style("border-radius", "0px")
     .style("background", "gray")
 });
-*/
+// */
 
 /*
 Example 5: D3 selection functions - joining functions

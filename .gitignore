@@ -4,3 +4,5 @@ web_development_classes.sublime-workspace
 
 # the html build for README.md to be able to visualise the markdown code
 README.html
+
+node_modules
