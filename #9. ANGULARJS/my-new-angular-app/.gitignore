@@ -1,43 +1,14 @@
-# sublime text workspace and project environment
-web_development_classes.sublime-project
-web_development_classes.sublime-workspace
-
-# the html build for README.md to be able to visualise the markdown code
-README.html
-
-# dependencies
-node_modules
-.pnp
-.pnp.js
-
-# testing
-coverage
-
-# production
-build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled utput
-ist
-mp
-out-tsc
-# Only exists if Bazel was un
-bazel-out
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
 
 # dependencies
-node_modules
+/node_modules
 
 # profiling files
 chrome-profiler-events*.json
